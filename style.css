@@ -1,0 +1,339 @@
+body{
+   background-color:azure;
+ }
+ /*styling for logo*/
+ .logo-image{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+.logo-image img{
+  width: 100%;
+  height: 100%;
+  
+}
+/*styling for navbar*/
+.topnav input[type=text]{ 
+        width:300px; 
+        height:25px; 
+        border-radius:25px;
+        float: left; 
+        border: none; 
+    } 
+
+.topnav button{ 
+        color: #f2f2f2; 
+        float: left; 
+        padding: 15px 10px;  
+        font-size: 12px; 
+        border: none; 
+        cursor: pointer; 
+    }  
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color:lightcoral;
+  font-family: Arial;
+}
+
+.bnavbar {
+  overflow: hidden;
+  background-color:darkslategrey;
+  font-family: Arial;
+  text-align: center;
+}
+.bnavbar a {
+  float: right;
+  font-size: 16px;
+  /* color: black; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 1.5% 4%;
+  text-decoration: none;
+}
+/* Add a red background color to navbar links on hover */
+.navbar a:hover {
+  background-color:bisque;
+}
+.topnav button:hover{
+  background-color:aquamarine;
+  color:black;
+}
+
+/* Slideshow container */
+.slider {
+  background-color:lightgoldenrodyellow;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color:blue;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:#ddd;
+}
+
+.numbertext img{
+  width: 50%;
+  height:50%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.topnav{
+ background-color:dimgrey;
+ overflow: hidden;
+}
+
+/*style the links inside the navigation bar */
+.topnav a{
+  float:right;
+  display: block;
+  color:#f2f2f2;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*change the color of the links on hover*/
+.topnav a:hover{
+  background-color:dodgerblue;
+  color:black;
+}
+/* hide the link that should open and close the topnav on small screens */
+.topnav .icon{
+  display: none;
+}
+/*styling for footer*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: dimgray;
+  color: white;
+}
+footer h4{
+  font-size:15px;
+}
+footer h3{
+  font-size: 20px;
+}
+
+.fa-facebook{
+          width: 30px;
+          height:50px;
+      }
+.fa-google{
+          width: 30px;
+          height:50px;
+      }
+.fa-twitter{
+          width: 30px;
+          height:50px;
+      }
+.fa-instagram{
+          width: 30px;
+          height:50px;
+      }
+
+/*styling for name*/
+.bname h3{
+  font-family:monospace;
+  font-style:oblique;
+  font-size:70px;
+  color:floralwhite;
+    
+  text-align: center;
+}
+/*styling for images*/
+ .images img,.imagesb img{
+  float: left;
+  width:25%;
+  height:25%;
+}
+
+.images a , .imagesb a{
+  float:right;
+  color:white;
+  font-size: 40px;
+  font-family:fantasy;
+}
+.imagesb h5 , .imagesb h5{
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  text-align: center;
+}
+
+
+/* styling for about*/
+.about{
+  
+}
+.about h3{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.about p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.about a{
+  float: right;
+  font-size: 20px;
+}
+.developer h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.developer h4{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:20px;
+  text-align:right;
+}
+
+/*styling for connect*/
+.contact h3{
+  color:black;
+  font-size: 40px;
+}
+.contact h4{
+  color:black;
+  font-size: 20px;
+}
+.contact a {
+  float: right;
+  font-size: 20px;
+
+}
+form input[type=text] {
+  width:100%;
+  padding: 20px 25px;
+  margin: 8px 0px;
+ box-sizing: border-box;
+}
+form label{
+  color: black;
+  font-size: 20px;
+}
+ form button
+{
+background-color:lightsteelblue;
+font: bold 15px arial, sans-serif;
+}
+
+.fa
+ {
+   font-size:50px;
+   }
+   /*styling for products*/
+  .products1 , .products2 , .products3 , .products4 , .gifts1 , .gifts2{
+     padding-left: 10px;
+     display: flex;
+     flex-direction:row;
+  }
+   .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float:initial;
+  margin:20px;
+}
+
+.price {
+  color: black;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:darkslategray;
+  text-align: center;
+  cursor: pointer;
+  width: 300px;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
